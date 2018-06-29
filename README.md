@@ -56,7 +56,7 @@ Import library with `<script>` tag
 <!-- import library from script tag -->
 <script src="/path/to/dist/blang.min.js"></script>
 <!-- OR from CDN -->
-<script src="https://unpkg.com/dist/blang.min.js"></script>
+<script src="https://unpkg.com/blang/dist/blang.min.js"></script>
 
 <script>
 // you can access library with 'blang' object
