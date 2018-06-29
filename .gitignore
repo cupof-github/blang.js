@@ -2,3 +2,4 @@ node_modules/
 verify/
 .DS_Store
 index.html
+any.js
