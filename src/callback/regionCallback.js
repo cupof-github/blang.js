@@ -8,7 +8,7 @@ export default (arg, lang, target, regions) => {
   intCheck(arg); // if arg is Int, then to be Exception
 
   // comparing language whether matching method and default
-  if (lang.slice(0, 2) !== target) return false;
+  // if (lang.slice(0, 2) !== target) return false;
 
   if (arg !== undefined) {
     let local = lang.slice(3, 5);
@@ -30,8 +30,8 @@ export default (arg, lang, target, regions) => {
       // if arg is string
       return arg.toLowerCase() === local ? true : false;
     } // ! Array.isArray
-  }
+  } // if arg !== undefined
 
   // if arg is empty
-  return true;
+  return lang.slice(0, 2) === target ? true : false;
 };
