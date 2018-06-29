@@ -2,9 +2,10 @@
 
 >  Detect browser's default language.
 
-<center>
+
 ![logo](./img/logo.png)
-</center>
+
+
 
 Blang.js is light-weight and no-dependency **language detect** javascript library. Blang.js is able to detect user's set **default language** on Web-browser.
 
