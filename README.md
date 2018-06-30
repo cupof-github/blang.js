@@ -182,7 +182,7 @@ export default {
 
 #### react.js case
 
-This example with React.js. below snippet used   [react-extras](https://github.com/sindresorhus/react-extras).
+This example with React.js. below snippet has used   [react-extras](https://github.com/sindresorhus/react-extras).
 
 ```js
 import { Choose } from "react-extras";
