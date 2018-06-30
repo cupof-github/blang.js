@@ -82,6 +82,8 @@ export default {
   or: () => one("or"), // Odia
   om: () => one("om"), // Oromo
   ps: () => one("ps"), // Pashto
+  fa: () => one("fa"), // Persian
+  pl: () => one("pl"), // Polish
   pt: arg => pt(arg), // Portuguese *func
   pa: () => one("pa"), // Punjabi
   qu: () => one("qu"), // Quechua
@@ -104,5 +106,26 @@ export default {
   su: () => one("su"), // Sundanese
   sw: () => one("sw"), // Swahili
   sv: () => one("sv"), // Swedish
-  tg: () => one("tg") // Tajik
+  tg: () => one("tg"), // Tajik
+  ta: () => one("ta"), // Tamil
+  tt: () => one("tt"), // Tatar
+  te: () => one("te"), // Telugu
+  th: () => one("th"), // Thai
+  ti: () => one("ti"), // Tigrinya
+  to: () => one("to"), // Tongan
+  tr: () => one("tr"), // Turkish
+  tk: () => one("tk"), // Turkmen
+  tw: () => one("tw"), // Twi
+  uk: () => one("uk"), // Ukrainian
+  ug: () => one("ug"), // Uyghur
+  uz: () => one("uz"), // Uzbek
+  ur: () => one("ur"), // Urdu
+  vi: () => one("vi"), // Vietnamese
+  wa: () => one("wa"), // Walloon
+  cy: () => one("cy"), // Welsh
+  fy: () => one("fy"), // Western Frisian
+  xh: () => one("xh"), // Xhosa
+  yi: () => one("yi"), // Yiddish
+  yo: () => one("yo"), // Yoruba
+  zu: () => one("zu") // Zulu
 };

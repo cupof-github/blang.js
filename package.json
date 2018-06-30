@@ -1,6 +1,6 @@
 {
   "name": "blang",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "detect browser's language",
   "main": "index.js",
   "scripts": {
