@@ -97,11 +97,13 @@ lang.is.hi(); // Hindi
 
 #### multiple regions
 
-Some languages have multiple regions like country in one language. For example **English** have `en-au`, `en-ca`, `en-in`, `en-za`, `en-gb`, `en-nz`, `en-us` and `en`.
+Some languages have multiple regions like country in one language.
+
+For example **English** have `en`, `en-au`, `en-ca`, `en-in`, `en-za`, `en-gb`, `en-nz`, `en-us`
+
+> They are idicationg `English`, `Australia`, `Canada`, `India`,  `South Africa`, `United Kingdom`, `New Zealand`, and `United States`
 
 In that case, you can define a regions with argument.
-
-> Regions are available in 'English', 'Chinese', 'French', 'German', 'Italian', 'Portuguese', 'Spanish'
 
 ```js
 /* detect one-region in English :String */
@@ -111,6 +113,8 @@ lang.is.en("gb"); // if 'en-gb'
 lang.is.en(['us', 'ca']); // if 'en', 'en-us' and 'en-ca'
 lang.is.en(['au', 'nz']); // // if 'en', 'en-au' and 'en-nz'
 ```
+
+> Regions are available in 'English', 'Chinese', 'French', 'German', 'Italian', 'Portuguese', 'Spanish'
 
 ### plural(array) : Boolean
 
