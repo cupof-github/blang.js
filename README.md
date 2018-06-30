@@ -132,6 +132,7 @@ lang.plural(['en', 'fr', 'es', 'de']);
 import lang from "blang";
 
 lang.detect();
+// e.x.p: fr-ca, en-us, en, zh-tw ... etc
 ```
 
 ## Practical usage
