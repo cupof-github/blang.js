@@ -148,7 +148,7 @@ Blang.js is very useful for a case of switching a rendering components by langua
   <h2> Your expected it's English 😆 </h2>
 </div>
 
-<!-- if setting as 'en-ca' or 'en'  -->
+<!-- if setting as 'en-ca'  -->
 <div v-if="lang().en('ca')">
   <h2> 🇨🇦  😆 </h2>
 </div>
@@ -211,6 +211,30 @@ render() {
  </div>
  )
 } // ! render()
+```
+
+#### axios case
+
+You can easy to switching a request by language.
+
+```js
+import axios from "axios";
+import lang from "blang";
+
+let url;
+
+if(lang.is.ja()) {
+  // if japan
+  url = '/req/for/japanese';
+} else {
+  // if not japan
+  url = '/req/for/english';
+}
+
+axios.get(url)
+     .then((val) => {
+      // diffrent request by language
+     });
 ```
 
 <div id='blang_lists'></div>
