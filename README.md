@@ -4,7 +4,7 @@
 
 ![logo](./img/logo.png)
 
-Blang.js is light-weight and no-dependency **language detect** javascript library. Blang.js is able to detect user's set **default language** on Web-browser.
+Blang.js is light-weight and none-dependency **language detect** javascript library. Blang.js is able to detect user's set **default language** on Web-browser.
 
 ```js
 import lang from "blang";
