@@ -101,7 +101,7 @@ Some languages have multiple regions like country in one language.
 
 For example **English** have `en`, `en-au`, `en-ca`, `en-in`, `en-za`, `en-gb`, `en-nz`, `en-us`
 
-> They are idicationg `English`, `Australia`, `Canada`, `India`,  `South Africa`, `United Kingdom`, `New Zealand`, and `United States`
+> They are indicating `English`, `Australia`, `Canada`, `India`,  `South Africa`, `United Kingdom`, `New Zealand`, and `United States`
 
 In that case, you can define a regions with argument.
 
