@@ -6,6 +6,6 @@ import callback from "../../callback/regionCallback";
  * br : Brazil
  * pt : Portugal
  */
-const enRegions = ["br", "pt", "in", "nz", "gb", "us"];
+const ptRegions = ["br", "pt"];
 
-export default arg => callback(arg, detect(), "pt", enRegions);
+export default arg => callback(arg, detect(), "pt", ptRegions);
