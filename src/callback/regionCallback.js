@@ -31,7 +31,7 @@ export default (arg, lang, target, regions) => {
       // if arg is string
       return arg.toLowerCase() === local ? true : false;
     } // ! Array.isArray
-  } // if arg !== undefined
+  } // ! if arg !== undefined
 
   // if arg is empty
   return lang.slice(0, 2) === target ? true : false;
