@@ -1,4 +1,4 @@
-/* Chinese */
+/* French */
 import detect from "../../helpers/detectLang";
 import callback from "../../callback/regionCallback";
 

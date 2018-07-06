@@ -1,4 +1,4 @@
-/* English */
+/* German */
 import detect from "../../helpers/detectLang";
 import callback from "../../callback/regionCallback";
 
