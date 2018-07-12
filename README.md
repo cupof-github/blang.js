@@ -125,7 +125,27 @@ Below snippet is to return boolean, if browser's language has setting as `Englis
 ```js
 import lang from "blang";
 
+// English, French, Spanish, German
 lang.plural(['en', 'fr', 'es', 'de']);
+```
+
+### exact(array) : Boolean
+
+`exact` method is detect a languages.
+
+Almost same as 'plural' method but, this is able to specify a laug-code with country. Like, `en-us`, ` de-ch`.
+
+```js
+import lang from "blang";
+
+/*
+ * (United States)(English) : en-us
+ * (United States)(Spanish) : es-us
+ * (Mexico)(Spanish) : es-mx
+ * (Canada)(English) : en-ca
+ * (Canada)(French) : fr-ca
+ */
+lang.plural(['en-us', 'es-us', 'es-mx', 'en-ca', 'fr-ca']);
 ```
 
 ### detect() : String

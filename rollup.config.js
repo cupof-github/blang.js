@@ -8,24 +8,24 @@ const file = {
   toBrowser: "dist/blang.min.js"
 };
 
-export default {
-  input: file.from,
-  output: {
-    file: file.to,
-    name: "blang",
-    format: "cjs",
-    sourceMap: true
-  },
-  plugins: [babel(), uglify(), resolve()]
-};
-
 // export default {
 //   input: file.from,
 //   output: {
-//     file: file.toBrowser,
+//     file: file.to,
 //     name: "blang",
-//     format: "iife",
+//     format: "cjs",
 //     sourceMap: true
 //   },
 //   plugins: [babel(), uglify(), resolve()]
-// }
+// };
+
+export default {
+  input: file.from,
+  output: {
+    file: file.toBrowser,
+    name: "blang",
+    format: "iife",
+    sourceMap: true
+  },
+  plugins: [babel(), uglify(), resolve()]
+}
