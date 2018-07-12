@@ -145,7 +145,7 @@ import lang from "blang";
  * (Canada)(English) : en-ca
  * (Canada)(French) : fr-ca
  */
-lang.plural(['en-us', 'es-us', 'es-mx', 'en-ca', 'fr-ca']);
+lang.exact(['en-us', 'es-us', 'es-mx', 'en-ca', 'fr-ca']);
 ```
 
 ### detect() : String
