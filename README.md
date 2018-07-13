@@ -262,6 +262,23 @@ axios.get(url)
      });
 ```
 
+### moment.js case
+
+You can easy to switching a locale (date-formats) by language.
+
+```js
+var m = moment;
+
+// if japan to be 'japan', else 'english'
+blang.is.ja() === true
+    ? m.locale('ja') // japan
+    : m.locale('en'); // english
+
+moment(new Date()).format('LLLL');
+// e.x.p : if ja : 2018年7月8日 日曜日 17:30
+// e.x.p : else : Sunday, July 8, 2018 5:30 PM
+```
+
 <div id='blang_lists'></div>
 
 ## Detectable-languages
