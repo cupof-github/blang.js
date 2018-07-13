@@ -81,7 +81,7 @@ lang.is.en();
 
 Currently detectable **108 languages**.
 
-[Available language lists](#blang_lists)
+[List of available languages](#blang_lists)
 
 ```js
 // if English, return 'true'
