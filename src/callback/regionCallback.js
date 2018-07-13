@@ -1,4 +1,3 @@
-// regionCallback.js
 import intCheck from "../exceptions/intCheck";
 import regionCheck from "../exceptions/regionCheck";
 import toLower from "../helpers/arrToLower";
