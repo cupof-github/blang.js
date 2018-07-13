@@ -19,7 +19,7 @@ lang.is.ru(); // if not Russian, return false
 // ... goes on
 ```
 
-> ! Working only web-browser
+> ! Working only web-browser. The reason why using `navigator` object inside.
 
 ## Installation
 
@@ -133,7 +133,7 @@ lang.plural(['en', 'fr', 'es', 'de']);
 
 `exact` method is detect a languages.
 
-Almost same as 'plural' method but, this is able to specify a laug-code with country. Like, `en-us`, ` de-ch`.
+Almost same as `plural` method but, this is able to specify a laug-code with country. Like, `en-us`, ` de-ch`.
 
 ```js
 import lang from "blang";
