@@ -262,7 +262,7 @@ axios.get(url)
      });
 ```
 
-### moment.js case
+#### moment.js case
 
 You can easy to switching a locale (date-formats) by language.
 
