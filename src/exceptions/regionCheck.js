@@ -8,6 +8,6 @@ export default (arg, regions, target) => {
       }' in '${target}'.\n* you can use them in [ ${regions} ].`;
       throw regionException;
       break;
-    }
-  }
-};
+    } // ! if
+  } // ! for
+}; // ! export default () => {}
