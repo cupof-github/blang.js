@@ -7,6 +7,6 @@ import callback from "../../callback/regionCallback";
  * cn : Simplified
  * tw : Traditional
  */
-const chRegions = ["hk", "cn", "tw"];
+let chRegions = ["hk", "cn", "tw"];
 
 export default arg => callback(arg, detect(), "zh", chRegions);

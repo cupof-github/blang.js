@@ -8,7 +8,7 @@ import callback from "../../callback/regionCallback";
  * li : Liechtenstein
  * ch : Switzerland
  */
-const deRegions = ["at", "de", "li", "ch"];
+let deRegions = ["at", "de", "li", "ch"];
 
 export default arg => {
   return callback(arg, detect(), "de", deRegions);

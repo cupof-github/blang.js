@@ -7,7 +7,7 @@ import callback from "../../callback/regionCallback";
  * fr : France
  * ch : Switzerland
  */
-const frRegions = ["ca", "fr", "ch"];
+let frRegions = ["ca", "fr", "ch"];
 
 export default arg => {
   return callback(arg, detect(), "fr", frRegions);

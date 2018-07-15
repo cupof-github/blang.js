@@ -11,6 +11,6 @@ import callback from "../../callback/regionCallback";
  * gb : United Kingdom
  * us : United States
  */
-const enRegions = ["au", "ca", "in", "nz", "gb", "us"];
+let enRegions = ["au", "ca", "in", "nz", "gb", "us"];
 
 export default arg => callback(arg, detect(), "en", enRegions);

@@ -16,7 +16,7 @@ import callback from "../../callback/regionCallback";
  * uy : Uruguay
  * ve : Venezuela
  */
-const esRegions = [
+let esRegions = [
   "ar",
   "cl",
   "co",
