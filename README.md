@@ -1,10 +1,10 @@
-# Belang.js
+# Blang.js
 
 >  Detect browser's default language.
 
 ![logo](./img/logo.png)
 
-Blang.js is light-weight and none-dependency **language detect** javascript library. Blang.js is able to detect user's set **default language** on Web-browser.
+Blang.js is light-weight and none-dependency **language detect** javascript library. Blang.js is able to detecting user's set **default language** on Web-browser.
 
 ```js
 import lang from "blang";
@@ -67,9 +67,10 @@ blang.is.en(); // call library
 
 ### is.languageCode() : Boolean
 
-`is` object can detect a browser's language whether what you expected.
+`is` object is used to compare a browser's language.
 
-Quick example below snippet. If user's browser-language has set as **English**, return `true`. Otherwise return `false`.
+Quick example snippet.
+If user's browser-language has set as **English**, return `true`. Otherwise return `false`.
 
 ```js
 /* detect english of not */
@@ -101,9 +102,9 @@ Some languages have multiple regions like country in one language.
 
 For example **English** have `en`, `en-au`, `en-ca`, `en-in`, `en-za`, `en-gb`, `en-nz`, `en-us`
 
-> They are indicating `English`, `Australia`, `Canada`, `India`,  `South Africa`, `United Kingdom`, `New Zealand`, and `United States`
+> They each indicate `English`, `Australia`, `Canada`, `India`,  `South Africa`, `United Kingdom`, `New Zealand`, and `United States`
 
-In that case, you can define a regions with argument.
+In this case, you can define a regions with argument.
 
 ```js
 /* detect one-region in English :String */
@@ -114,13 +115,13 @@ lang.is.en(['us', 'ca']); // if 'en', 'en-us' and 'en-ca'
 lang.is.en(['au', 'nz']); // // if 'en', 'en-au' and 'en-nz'
 ```
 
-> Regions are available in 'English', 'Chinese', 'French', 'German', 'Italian', 'Portuguese', 'Spanish'
+> Languages are available in 'English', 'Chinese', 'French', 'German', 'Italian', 'Portuguese', 'Spanish'
 
 ### plural(array) : Boolean
 
-`plural` method is detect a languages.
+`plural` method is used detect a languages.
 
-Below snippet is to return boolean, if browser's language has setting as `English`, `French`, `Spanish` or `German`.
+Below snippet return boolean, if browser's language has setting such as `English`, `French`, `Spanish` or `German`.
 
 ```js
 import lang from "blang";
@@ -133,7 +134,7 @@ lang.plural(['en', 'fr', 'es', 'de']);
 
 `exact` method is detect a languages.
 
-Almost same as `plural` method but, this is able to specify a laug-code with country. Like, `en-us`, ` de-ch`.
+Almost same as `plural` method but, this is able to specify a lang-code with country. Like, `en-us`, ` de-ch`.
 
 ```js
 import lang from "blang";
@@ -150,7 +151,7 @@ lang.exact(['en-us', 'es-us', 'es-mx', 'en-ca', 'fr-ca']);
 
 ### detect() : String
 
-`detect` method is to retrun browser's setting language as string.
+`detect` method is to return browser's setting language as string.
 
 ```js
 import lang from "blang";
@@ -161,7 +162,7 @@ lang.detect();
 
 ## Practical usage
 
-Blang.js is very useful for a case of switching a rendering components by language with Virtual-DOM libs ( React.js, Vue.js, and so.) .
+Blang.js is very useful for a case of switching rendering components by language with Virtual-DOM libs ( React.js, Vue.js, and so.) .
 
 #### vue.js case ( vuex )
 
@@ -202,7 +203,7 @@ export default {
 
 #### react.js case
 
-This example with React.js. below snippet has used   [react-extras](https://github.com/sindresorhus/react-extras).
+This example with React.js. using below's snippet   [react-extras](https://github.com/sindresorhus/react-extras).
 
 ```js
 import { Choose } from "react-extras";
@@ -240,7 +241,7 @@ render() {
 
 #### axios case
 
-You can easy to switching a request by language.
+You can easily switch a request by language.
 
 ```js
 import axios from "axios";
@@ -264,7 +265,7 @@ axios.get(url)
 
 #### moment.js case
 
-You can easy to switching a locale (date-formats) by language.
+You can easily switch a locale (date-formats) by language.
 
 ```js
 var m = moment;
@@ -283,7 +284,7 @@ moment(new Date()).format('LLLL');
 
 ## Detectable-languages
 
-Those list of data are from Google-Chrome have.
+Those list of data are from Google-Chrome.
 
 | Language          |                                                                                                                                                                   code                                                                                                                                                                   |
 | ----------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
