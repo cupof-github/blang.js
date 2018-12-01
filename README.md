@@ -29,7 +29,7 @@ npm i blang
 // yarn
 yarn add blang
 // cdn
-<script src="https://unpkg.com/dist/blang.min.js"></script>
+<script src="https://unpkg.com/blang/dist/blang.min.js"></script>
 ```
 
 ### Import library
